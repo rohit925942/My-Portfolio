@@ -108,8 +108,12 @@ section {
 }
 
 .hero-content p {
-    max-width: 600px;
-    margin-bottom: 2rem;
+  .hero-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
     color: var(--text-muted);
     opacity: 0;
     transform: translateY(40px);
@@ -178,20 +182,38 @@ section {
     position: relative;
 }
 
-.hero-image{
+.hero-image {
+    flex: 0 0 350px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hero-image img {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #00d9ff;
+    position: relative;
+    left: 60%;
+    bottom: 120%;
+}
+
+/* .hero-image{
     position: absolute;
     right: 8%;
     top: 50%;
     transform: translateY(-50%);
-}
+} */
 
-.hero-image img{
+/* .hero-image img{
     width: 350px;
     height: 350px;
     object-fit: cover;
     border-radius: 50%;
     border: 5px solid #00e5ff;
-}
+} */
 /* About / Education Section */
 .about-card {
     background-color: var(--card-bg);
