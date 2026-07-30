@@ -4,7 +4,7 @@ My personal developer portfolio built using HTML and CSS to showcase my web deve
 
 ## 🚀 Live Demo
 
-🔗 https://rohit925942.github.io/My-Profile-/
+🔗 (https://rohit925942.github.io/My-Portfolio/)
 
 > *(Agar live URL alag ho to yahan update kar dena.)*
 
